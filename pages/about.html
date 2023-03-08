@@ -12,23 +12,58 @@
 </head>
 <body>
     <header>
-        <img src="../img/LogoChampu1.png" alt="logo de estudio champú, un estudio versatil, con orientacion en el crecimiento de marcas desde cero y evolucionadas, marcas que buscan un cambio por su proceso evolutivo. Todo proceso creativo lleva tiempo, pero con ganas, fuerza y un buen equipo de trabajo, todo se puede lograr.">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../pages/about.html">El Estudio y yo</a></li>
-                    <li><a href="../pages/services.html">Servicios Deluxe</a>
-                        <ol>
-                            <li><a href="./pages/subpages/branding.html">Branding y +</a></li>
-                            <li><a href="./pages/subpages/web.html">Web</a></li>
-                            <li><a href="./pages/subpages/digitalmarketing.html">Mkt y Social</a></li>
-                        </ol>
+        <img src="img/LogoChampu1.png" alt="logo de estudio champú, un estudio versatil, con orientacion en el crecimiento de marcas desde cero y evolucionadas, marcas que buscan un cambio por su proceso evolutivo. Todo proceso creativo lleva tiempo, pero con ganas, fuerza y un buen equipo de trabajo, todo se puede lograr.">
+            
+        <nav class="navbar navbar-dark navbgcolor fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Champú</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Estudio Champú</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                     </li>
-                    <li><a href="./pages/proyects.html">Proyectos Demoledores</a></li>
-                    <li><a href="./pages/contact.html">Contacto y Sociales</a></li>
-                    <li><a href="https://www.instagram.com/champuestudio" target="_blank">Instagram</a></li>
-                </ul>
-            </nav>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/about.html">El estudio y yo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="./pages/services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios Deluxe
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Branding y +</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Web</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">MKT y social</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/proyects.html">Proyectos Demoledores</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contact.html">Contacto y Sociales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/champuestudio" target="_blank">Instagram</a>
+                      </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
          <section>   
