@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.navbgcolor{
+    background-color: black;
+    color: beige;
 
+}
 body{
     background-color: black;
 
