@@ -1,82 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.navbgcolor{
-    background-color: black;
-    color: beige;
-
-}
-body{
-    background-color: black;
-
-}
-header nav ul{
-    list-style-type: none;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header nav ul li a{
-    color: #CCFF00;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    text-decoration: none;
-    font-size: 16px;
-}
-    
-.maintit{
-    color: #CCCCFF;
-    font-size: 80px;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-weight: 700;
+.navbgcolor {
+  background-color: black;
+  color: beige;
 }
 
-.mainpar{
-    color: #CCCCFF;
-    font-size: 20px;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-weight: 300;
+body {
+  background-color: black;
 }
-.minitit{
-    color: white;
-    font-size: 16px;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-weight: 300;
 
+header nav ul {
+  list-style-type: none;
 }
-.grandtext{
-    color: white;
-    font-size: 60px;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-weight: 600;
 
+header nav ul li a {
+  color: #CCFF00;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
 }
-.secmenu a{
-    font-size: 80px;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    color: #ACCCD1;
-    font-weight: 500;
-    font-style: oblique;
-    text-decoration: underline 2px solid;
 
+.maintit {
+  color: #CCCCFF;
+  font-size: 80px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-weight: 700;
 }
-.secnoline{
-    font-size: 80px;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    color: #ACCCD1;
-    font-weight: 500;
-    font-style: oblique;
-}
-.titulosobreimg{
-    font-size: 70px;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    color: #ACCCD1;
-    font-weight: 300;
-    font-style: oblique;
 
+.mainpar {
+  color: #CCCCFF;
+  font-size: 20px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-weight: 300;
 }
-main section a{
-    border-bottom: 2px solid;
-    border-radius: 2px;
-    padding: 10px 15px;
-    text-decoration: none;
+
+.minitit {
+  color: white;
+  font-size: 16px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-weight: 300;
 }
+
+.grandtext {
+  color: white;
+  font-size: 60px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-weight: 600;
+}
+
+.secmenu a {
+  font-size: 80px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #ACCCD1;
+  font-weight: 500;
+  font-style: oblique;
+  text-decoration: underline 2px solid;
+}
+
+.secnoline {
+  font-size: 80px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #ACCCD1;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.titulosobreimg {
+  font-size: 70px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #ACCCD1;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+main section a {
+  border-bottom: 2px solid;
+  border-radius: 2px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
