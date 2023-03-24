@@ -74,9 +74,13 @@ header nav ul li a{
     font-style: oblique;
 
 }
-main section a{
-    border-bottom: 2px solid;
-    border-radius: 2px;
-    padding: 10px 15px;
-    text-decoration: none;
+main {
+    section {
+            a{
+            border-bottom: 2px solid;
+            border-radius: 2px;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+    }
 }
