@@ -11,18 +11,24 @@ body{
     background-color: black;
 
 }
-header nav ul{
-    list-style-type: none;
-    
-}
 
-header nav ul li a{
-    color: #CCFF00;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    text-decoration: none;
-    font-size: 16px;
+
+header {
+    nav {
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                color: #CCFF00;
+                font-family: 'Sofia Sans Extra Condensed', sans-serif;
+                text-decoration: none;
+                font-size: 16px;
+                }
+            
+            }
+        }
+    }
 }
-    
 .maintit{
     color: #CCCCFF;
     font-size: 80px;
@@ -50,14 +56,16 @@ header nav ul li a{
     font-weight: 600;
 
 }
-.secmenu a{
-    font-size: 80px;
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    color: #ACCCD1;
-    font-weight: 500;
-    font-style: oblique;
-    text-decoration: underline 2px solid;
+.secmenu{
+        a{
+        font-size: 80px;
+        font-family: 'Sofia Sans Extra Condensed', sans-serif;
+        color: #ACCCD1;
+        font-weight: 500;
+        font-style: oblique;
+        text-decoration: underline 2px solid;
 
+    }
 }
 .secnoline{
     font-size: 80px;

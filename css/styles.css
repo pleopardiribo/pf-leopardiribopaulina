@@ -12,10 +12,9 @@ body {
   background-color: black;
 }
 
-header nav ul {
+header nav ul li {
   list-style-type: none;
 }
-
 header nav ul li a {
   color: #CCFF00;
   font-family: "Sofia Sans Extra Condensed", sans-serif;

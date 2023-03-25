@@ -1,70 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DISEÑO GRÁFICO * WEB * BRANDING</title>
+    <title>DISEÑO GRÁFICO * WEB * BRANDING DEMOLEDOR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="img/LogoChampu1.png" alt="logo de estudio champú, un estudio versatil, con orientacion en el crecimiento de marcas desde cero y evolucionadas, marcas que buscan un cambio por su proceso evolutivo. Todo proceso creativo lleva tiempo, pero con ganas, fuerza y un buen equipo de trabajo, todo se puede lograr.">
+  <header>
+    <!-- navbar nueva-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="../img/LogoChampu1.png" alt="logo de estudio champú, un estudio versátil, con orientación en el crecimiento de marcas desde cero y evolucionadas, marcas que buscan un cambio por su proceso evolutivo. Todo proceso creativo lleva tiempo, pero con ganas, fuerza y un buen equipo de trabajo y seguridad profesional, todo se puede lograr."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">El Estudio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../pages/services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios Demoledores
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Branding y +</a></li>
+                <li><a class="dropdown-item" href="#">Web Pro</a></li>
+                <li><a class="dropdown-item" href="#">Mkt y Redes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/proyects.html">Proyectos Increíbles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html">Contacto</a>
+            </li>
             
-        <nav class="navbar navbar-dark navbgcolor fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">Champú</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Estudio Champú</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pages/about.html">El estudio y yo</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="./pages/services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Servicios Deluxe
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#">Branding y +</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Web</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                          </li>
-                          <li><a class="dropdown-item" href="#">MKT y social</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/proyects.html">Proyectos Demoledores</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contact.html">Contacto y Sociales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.instagram.com/champuestudio" target="_blank">Instagram</a>
-                      </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
+    
+</header>
     <main>
          <section>   
             <img src="../img/fondoDePantallaWebChampu.jpg" alt="">
@@ -83,9 +70,13 @@
                 -
             </h2>
             <p class="grandtext">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In itaque eaque ipsam fugit, minus natus necessitatibus ducimus dolorem autem qui suscipit expedita, blanditiis quos quasi est corporis id, odio consequuntur?
-            Ut tempore aut eum obcaecati sint consequatur magnam suscipit deleniti ab dolorum? Consequuntur molestiae autem voluptatem facilis ab aspernatur inventore dolores soluta laboriosam, quibusdam iure beatae nisi odio, atque sunt?
-            Veritatis, nostrum atque molestias odit accusantium debitis libero corrupti quae sed, dicta magni a quam? Deserunt ratione cum illum corrupti amet soluta eum repudiandae perferendis atque. Numquam, laboriosam? Vero, praesentium!
+              ¡Hola! Soy Paulina Leopardi, una diseñadora gráfica soñadora y apasionada por mi trabajo. Desde que nací, he sido una persona creativa y siempre he sabido que quería dedicarme al diseño gráfico. En 2014, me gradué en la Universidad de Buenos Aires y desde entonces he estado trabajando en el campo del diseño gráfico, colaborando con mis clientes para crear soluciones únicas y personalizadas para sus marcas.
+
+              <br> encanta trabajar en equipo con mis clientes, ya que creo que esto es lo que nos lleva a crear los mejores diseños. Cada proyecto es una oportunidad para aprender y crecer, tanto profesional como personalmente. Creo en el crecimiento de las marcas de manera evolutiva, y me esfuerzo por crear diseños que no solo sean estéticamente atractivos, sino también efectivos en la promoción de la marca.
+              
+              <br>A lo largo de mi carrera, he tenido la oportunidad de trabajar en una variedad de proyectos emocionantes, pero hay algunos que son especialmente significativos para mí. Te invito a que visites mi portafolio y veas algunos de mis proyectos más importantes, donde podrás apreciar mi habilidad para crear diseños únicos y efectivos que ayudan a las marcas a destacarse.
+              
+              <br>Para mí, el diseño gráfico es más que un trabajo, es una pasión. Me encanta trabajar con mis clientes y ayudarles a alcanzar sus objetivos a través del diseño. Si estás buscando un diseñador gráfico comprometido y creativo, estaré encantada de trabajar contigo en tu próximo proyecto. ¡Espero saber de ti pronto!
             </p>
             
         </section>
