@@ -28,7 +28,7 @@ header nav ul li a {
 #headertextin h1 {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: auto;
 }
 
 #headertextin {
@@ -36,22 +36,25 @@ header nav ul li a {
 }
 #headertextin p {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: auto;
 }
 
 .maintit {
+  text-align: center;
   color: #CCCCFF;
-  font-size: 80px;
+  font-size: 6rem;
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: 700;
 }
 
 .mainpar {
+  text-align: center;
   color: #CCCCFF;
-  font-size: 20px;
+  font-size: 3rem;
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: 300;
+  
 }
 
 .minitit {
@@ -59,6 +62,7 @@ header nav ul li a {
   font-size: 16px;
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: 300;
+  padding-top: 2em;
 }
 
 .grandtext {
@@ -66,6 +70,7 @@ header nav ul li a {
   font-size: 60px;
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: 600;
+  padding-top: 2em;
 }
 
 .secmenu a {
