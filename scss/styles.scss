@@ -7,17 +7,25 @@
     color: beige;
 
 }
+
 body{
     background-color: black;
 
 }
+.colortxtlink{
+    color: #CCCCFF;
+    &:hover{
+        color: #CCFF00;
 
+    }
+}
 
 header {
     nav {
         ul{
             li{
                 list-style-type: none;
+                
                 a{
                 color: #CCFF00;
                 font-family: 'Sofia Sans Extra Condensed', sans-serif;
@@ -49,24 +57,28 @@ header {
 }
 .maintit{
     text-align: center;
-    color: #CCCCFF;
+    color: indigo;
     font-size: 6rem;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-weight: 700;
+    padding: 2rem;
 }
 
 .mainpar{
-    text-align: center;
-    color: #CCCCFF;
+    text-align:left;
+    color: indigo;
     font-size: 3rem;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-weight: 300;
+    padding: 2rem;
 }
 .minitit{
     color: white;
-    font-size: 16px;
+    font-size: 1.8rem;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-weight: 300;
+    padding-top: 3rem;
+    padding-left: 3rem;
 
 }
 .grandtext{
@@ -74,6 +86,7 @@ header {
     font-size: 60px;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-weight: 600;
+    padding-top: 3rem;
 
 }
 .secmenu{
