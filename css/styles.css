@@ -34,7 +34,7 @@ header nav ul li a {
 }
 #headertextin h1 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: auto;
 }
 
@@ -80,6 +80,7 @@ header nav ul li a {
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: 600;
   padding-top: 3rem;
+  padding-right: 3rem;
 }
 
 .secmenu a {
