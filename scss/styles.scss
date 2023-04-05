@@ -1,3 +1,5 @@
+@import "./components/header";
+
 *{
     margin: 0;
     padding: 0;
@@ -20,41 +22,7 @@ body{
     }
 }
 
-header {
-    nav {
-        ul{
-            li{
-                list-style-type: none;
-                
-                a{
-                color: #CCFF00;
-                font-family: 'Sofia Sans Extra Condensed', sans-serif;
-                text-decoration: none;
-                font-size: 16px;
-                }
-            
-            }
-        }
-    }
-}
-#headertextin{
-    position: relative;
-    h1{
-        position: absolute;
-        top: 40%;
-        left: auto;
 
-    }
-}
-#headertextin{
-    position: relative;
-    p{
-        position: absolute;
-        top: 60%;
-        left: auto;
-
-    }
-}
 .maintit{
     text-align: center;
     color: indigo;
