@@ -27,7 +27,7 @@ body{
 
 .maintit{
     text-align: center;
-    color: nth($coloresch , 11);
+    color: nth($coloresch , 2);
     font-size: 3.5em;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-weight: 700;
@@ -40,7 +40,7 @@ body{
 
 .mainpar{
     text-align: center;
-    color: indigo;
+    color: nth($coloresch , 2);
     font-size: 2em;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-weight: 300;
