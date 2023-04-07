@@ -32,12 +32,12 @@ header nav ul li a {
 }
 
 .navbgcolor {
-  background-color: black;
-  color: beige;
+  background-color: #000000;
+  color: #F3EDE6;
 }
 
 body {
-  background-color: black;
+  background-color: #000000;
 }
 
 .colortxtlink {
@@ -49,14 +49,18 @@ body {
 
 .maintit {
   text-align: center;
-  color: indigo;
-  font-size: 3em;
+  color: #6633FF;
+  font-size: 3.5em;
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: 700;
 }
 
+.btnhover:hover {
+  color: #FDC9CB;
+}
+
 .mainpar {
-  text-align: left;
+  text-align: center;
   color: indigo;
   font-size: 2em;
   font-family: "Sofia Sans Extra Condensed", sans-serif;
@@ -87,7 +91,6 @@ body {
   color: #ACCCD1;
   font-weight: 500;
   font-style: oblique;
-  text-decoration: underline 2px solid;
 }
 
 .secnoline {
@@ -106,8 +109,22 @@ body {
   font-style: oblique;
 }
 
+.titulosobreimg2 {
+  font-size: 40px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #ACCCD1;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.foottit {
+  color: white;
+  font-size: 1rem;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-weight: 300;
+}
+
 main section a {
-  border-bottom: 2px solid;
   border-radius: 2px;
   padding: 10px 15px;
   text-decoration: none;

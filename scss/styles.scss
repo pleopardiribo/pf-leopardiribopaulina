@@ -1,38 +1,45 @@
+
+@import "./base/variables";
 @import "./components/header";
+@import "./components/footer";
 
 *{
     margin: 0;
     padding: 0;
 }
 .navbgcolor{
-    background-color: black;
-    color: beige;
+    background-color: nth($coloresch , 9);
+    color: nth($coloresch, 8);
 
 }
 
 body{
-    background-color: black;
+    background-color: nth($coloresch , 9);
 
 }
 .colortxtlink{
-    color: #CCCCFF;
+    color: nth($coloresch, 6);
     &:hover{
-        color: #CCFF00;
-
+        color: nth($coloresch, 7);
     }
 }
 
 
 .maintit{
     text-align: center;
-    color: indigo;
-    font-size: 3em;
+    color: nth($coloresch , 11);
+    font-size: 3.5em;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-weight: 700;
 }
+.btnhover{
+    &:hover{
+        color: nth($coloresch , 2);
+    }
+}
 
 .mainpar{
-    text-align:left;
+    text-align: center;
     color: indigo;
     font-size: 2em;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
@@ -63,7 +70,7 @@ body{
         color: #ACCCD1;
         font-weight: 500;
         font-style: oblique;
-        text-decoration: underline 2px solid;
+
 
     }
 }
@@ -82,10 +89,24 @@ body{
     font-style: oblique;
 
 }
+.titulosobreimg2{
+    font-size: 40px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    color: #ACCCD1;
+    font-weight: 300;
+    font-style: oblique;
+
+}
+.foottit {
+    color: white;
+    font-size: 1rem;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-weight: 300;
+  }
+
 main {
     section {
             a{
-            border-bottom: 2px solid;
             border-radius: 2px;
             padding: 10px 15px;
             text-decoration: none;
